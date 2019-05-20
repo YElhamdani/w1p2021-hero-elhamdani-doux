@@ -1,45 +1,39 @@
 {
     "1" : {
       "messages": {
-        "first": "Allo ? qelqu'un me reçoit ?",
-        "second": "Est-ce que quelqu'un m'entend ?",
-        "third": "Je suis bloqué, j'ai besoin d'aide"
+        "first": "Payer  7 000euros et entrer dans l’école",
+        "second": "Wallah c’est moins cher ailleurs"
       },
-      "btnA": " Qui est-ce ?",
-      "btnB": " Oui je vous reçois",
-      "actionA" : "/game/3",
-      "actionB" : "/game/2",
-      "scene" : "dark-scene"
+      "btnA": " oui",
+      "btnB": " non",
+      "actionA" : "/game/2",
+      "actionB" : "/game"
     },
     "2" : {
       "messages": {
-        "first": "Dieu soit loué, je ne suis pas seul..",
-        "second": "Pouvez vous me dire ou je suis ?"
-      },
-      "btnA": " Mais qui êtes vous ?",
-      "btnB": " D'accord",
+        "first": "Choisissez votre faction pour l’année"
+         },
+      "btnA": " Les bruyants du groupe 1",
+      "btnB": " Les absents du groupe 2",
       "actionA" : "/game/3",
-      "actionB" : "/game/2",
-      "scene" : "light-scene"
+      "actionB" : "/game/3"
     },
     "3" : {
       "messages": {
-        "first": "Merde, je suis dans un pétrin",
-        "second": "S'il vous plait j'ai besoin de vous"
+        "first": "C’est le premier cours, Culture Geek avec Brontis pendant 4:00 d'affilé"
       },
-      "btnA": " Oui mais bon",
-      "btnB": " Très bien",
-      "actionA" : "/game/3",
-      "actionB" : "/game/2"
+      "btnA": " Ecouter attentivement",
+      "btnB": " Dormir profondément",
+      "actionA" : "/game/4",
+      "actionB" : "/game/4"
     },
     "4" : {
       "messages": {
-        "first": "J'ai besoin que vous me guidiez",
-        "second": "Je ne sais pas ou je suis ni ce que je dois faire"
+        "first": "Le cours est passé plus vite que vous ne le pensiez. C’est l’heure de la pause café, vous n’avez pas les 40 centimes suffisant"
       },
-      "btnA": " Qui est-ce ?",
-      "btnB": " Oui je vous reçois",
-      "actionA" : "/game/3",
-      "actionB" : "/game/2"
+      "btnA": " S’abstenir de boissons",
+      "btnB": " Pirater la machine",
+      "actionA" : "/game/5",
+      "actionB" : "/game/5"
     }
   }
