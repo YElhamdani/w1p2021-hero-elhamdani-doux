@@ -12,16 +12,16 @@ textarea {
 }
 
 .big-header {
-  background-color: $hetic-green;
+  background-color: black;
   height: 100vh;
-
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-
   color: white;
+  transition: background-color 1s ease-in-out;
 }
 
 .button {
