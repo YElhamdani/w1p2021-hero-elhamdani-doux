@@ -1,0 +1,45 @@
+{
+    "1" : {
+      "messages": {
+        "first": "Allo ? qelqu'un me reçoit ?",
+        "second": "Est-ce que quelqu'un m'entend ?",
+        "third": "Je suis bloqué, j'ai besoin d'aide"
+      },
+      "btnA": " Qui est-ce ?",
+      "btnB": " Oui je vous reçois",
+      "actionA" : "/game/3",
+      "actionB" : "/game/2",
+      "scene" : "dark-scene"
+    },
+    "2" : {
+      "messages": {
+        "first": "Dieu soit loué, je ne suis pas seul..",
+        "second": "Pouvez vous me dire ou je suis ?"
+      },
+      "btnA": " Mais qui êtes vous ?",
+      "btnB": " D'accord",
+      "actionA" : "/game/3",
+      "actionB" : "/game/2",
+      "scene" : "light-scene"
+    },
+    "3" : {
+      "messages": {
+        "first": "Merde, je suis dans un pétrin",
+        "second": "S'il vous plait j'ai besoin de vous"
+      },
+      "btnA": " Oui mais bon",
+      "btnB": " Très bien",
+      "actionA" : "/game/3",
+      "actionB" : "/game/2"
+    },
+    "4" : {
+      "messages": {
+        "first": "J'ai besoin que vous me guidiez",
+        "second": "Je ne sais pas ou je suis ni ce que je dois faire"
+      },
+      "btnA": " Qui est-ce ?",
+      "btnB": " Oui je vous reçois",
+      "actionA" : "/game/3",
+      "actionB" : "/game/2"
+    }
+  }

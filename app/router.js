@@ -16,15 +16,31 @@ const router = new Router({
       component: Home,
     },
     {
-      path: '/page',
-      name: 'page',
-      component: Page,
+      path: '/character',
+      name: 'character',
+      component: Character,
+    },
+    {
+      path: '/game/:id',
+      name: 'game',
+      component: Game,
+    },
+    {
+      path: '/win',
+      name: 'win',
+      component: Win,
+    },
+    {
+      path: '/lose',
+      name: 'lose',
+      component: Lose,
     },
     {
       path: '*',
       redirect: { name: 'home' },
-    },
+    }
   ],
 });
 
 export default router;
+
