@@ -10,7 +10,6 @@
     <br>
     <p>Augmentez votre note et avancez dans l’histoire en faisant les <span class="autor">bons choix</span> durant le jeu; ne vous faites pas virer, repondez juste aux questions posées.</p>
     <br/>
-    <p><span class="autor">Younes ELHAMDANI</span> ; Lead Développeur</p>
     <br/>
     <div class="buttons">
     <router-link class="button" to="/page"> Retour</router-link>

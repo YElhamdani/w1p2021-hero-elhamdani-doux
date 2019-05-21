@@ -1,6 +1,6 @@
 <template>
   <div class="big-header">
-    <h1>Lose</h1>
+    <h1>Loser Tu est viré --'</h1>
     <br />
     <router-link class="button" to="/">Go to Home</router-link>
   </div>

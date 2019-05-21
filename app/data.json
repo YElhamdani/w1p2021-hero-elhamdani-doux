@@ -1,39 +1,269 @@
 {
     "1" : {
-      "messages": {
-        "first": "BIENVENUE à HETIC ! ",
-        "second": "Ca y est vous êtes admis dans l’école prestigieuse qu’est HETIC, Brontis vous accueille pour votre premier jour."
-      },
+      
+      "first": "BIENVENUE à HETIC ! ",
+      "second": "Ca y est vous êtes admis dans l’école prestigieuse qu’est HETIC, Brontis vous accueille pour votre premier jour.",
+      
       "btnA": " Payer 7 000€ et entrer dans l’école",
       "btnB": " Wallah c’est moins cher ailleurs",
-      "actionA" : "/game/2",
-      "actionB" : "/game"
+      "actionA" : "2",
+      "actionB" : "/lose"
     },
     "2" : {
-      "messages": {
-        "first": "Choisissez votre faction pour l’année"
-         },
+      
+      "first": "Choisissez votre faction pour l’année",
+         
       "btnA": " Les bruyants du groupe 1",
       "btnB": " Les absents du groupe 2",
-      "actionA" : "/game/3",
-      "actionB" : "/game/3"
+      "actionA" : "3",
+      "actionB" : "3"
     },
     "3" : {
-      "messages": {
-        "first": "C’est le premier cours, Culture Geek avec Brontis pendant 4:00 d'affilé"
-      },
+      "first": "C’est le premier cours, Culture Geek avec Brontis pendant 4:00 d'affilé",
+     
       "btnA": " Ecouter attentivement",
       "btnB": " Dormir profondément",
-      "actionA" : "/game/4",
-      "actionB" : "/game/4"
+      "actionA" : "4",
+      "actionB" : "4"
     },
     "4" : {
-      "messages": {
-        "first": "Le cours est passé plus vite que vous ne le pensiez. C’est l’heure de la pause café, vous n’avez pas les 40 centimes suffisant"
-      },
+
+      "first": "Le cours est passé plus vite que vous ne le pensiez. C’est l’heure de la pause café, vous n’avez pas les 40 centimes suffisant",
       "btnA": " S’abstenir de boissons",
       "btnB": " Pirater la machine",
-      "actionA" : "/game/5",
-      "actionB" : "/game/5"
+      "actionA" : "5",
+      "actionB" : "6"
+    },
+    "5" : {
+        "first":"Vous êtes retourné en cours. Bienvenue au premier cours d’intégration de l’année, pour commencez testez vos connaissances !",
+        "second": "CSS: Lequel de ces alignements fait prendre au texte toute la largeur disponible ?",
+
+      "btnA":"center",
+      "btnB":"justify",
+      "actionA":"8",
+      "actionB":"/lose"
+    },
+    "6" : {
+      
+      "first":"Ah, vous avez été pris sur le fait par le gardien ...",
+      "btnA":"Assumer",
+      "btnB":"S’enfuir",
+      "actionA":"9",
+      "actionB":"10"
+    },
+    "8" : {
+      
+      "first":"HTML-CSS: Par défaut, il est impossible de donner des dimensions à l'une de ces balises. Laquelle ?",
+      "btnA":"<a>",
+      "btnB":"<div>",
+      "actionA":"11",
+      "actionB":"11"
+    },
+    "9" : {
+      
+      "first":"Vous avez assumé votre acte, mais pirater la machine à café est quelque chose de grave, vous êtes renvoyer de l’école.",
+      "btnA":"je suis un loser",
+      "actionA":"/lose"
+    },
+    "10" : {
+      
+      "first":"Vous avez de la chance, le gardien n’a pas réussi à vous rattraper.",
+      "btnA":"continuer",
+      "actionA":"5"
+      
+    },
+    "11" : {
+
+      "first":"C’est l’heure de la pause déjeuner, vous savez qu’il est interdit de manger dans les salles de cours, qu’allez vous faire ?",
+      "btnA":"Aller manger dans la cafet",
+      "btnB":"Rester dans la salle pour manger",
+      "actionA":"12",
+      "actionB":"13"
+    },
+    "12" : {
+  
+      "first":"C’est bondé, il n’y a aucune place assise et vous devez manger par terre du coup, ça aurait été plus agréable de rester dans votre salle",
+      "btnA":"continuer",
+      "actionA":"16"
+    },
+    "13" : {
+      "messages":{
+        "first":"Marie passe et vous voit manger dans la salle, elle vous rappelle les règles en haussant le ton et vous demande de sortir, que faites vous ?"
+      },
+      "btnA":"Expliquer qu’il y a du monde partout et que vous ne trouvez aucune autre place assise",
+      "btnB":"Faire la sourde oreille et continuer de manger",
+      "actionA":"14",
+      "actionB":"15"
+    },
+    "14" : {
+      "messages":{
+        "first":"Marie prend votre nom et vous préviens de votre sanction pour non respect des règles de l’école. Vous perdez 1 point dans votre moyenne"
+      },
+      "btnA":"continuer",
+      "actionA":"16"
+    },
+    "15" : {
+      "messages":{
+        "first":"Marie comprend la situation et vous donne l’autorisation de rester dans la salle pour déjeuner"
+      },
+      "btnA":"continuer",
+      "actionA":"16"
+    },
+    "16" : {
+      "messages":{
+        "first":"L’heure du déjeuner est passée, Johanna passe dans la classe pour parler des stages, des modalités etc ... Elle vous conseille de commencer à chercher tôt"
+      },
+      "btnA":"Commencer à chercher dés maintenant",
+      "btnB":"Chercher plus tard",
+      "actionA":"17",
+      "actionB":"17"
+    },
+    "17" : {
+      "messages":{
+        "first":"Cours de Wordpress, préparez vous pour une petite série de question",
+        "second":"WORDPRESS: Faut-il changer le préfixe des tables au moment de l'installation ?"
+      },
+      "btnA":"Oui, pour des raisons de sécurité.",
+      "btnB":"Non, le préfixe ne doit pas être modifié.",
+      "actionA":"18",
+      "actionB":"18"
+    },
+    "18" : {
+      "messages":{
+        "first":"Bon, les questions ça va deux minutes, vous commencez à vous ennuyer, que faites vous ?"
+      },
+      "btnA":"Continuer les questions",
+      "btnB":"Partir discretement à la pause",
+      "actionA":"19",
+      "actionB":"20"
+    },
+    "19" : {
+      "messages":{
+        "first":"WORDPRESS: Choisissez la bonne réponse"
+      },
+      "btnA":"fonctions.php",
+      "btnB":"functions.php",
+      "actionA":"22",
+      "actionB":"22"
+    },
+    "20" : {
+      "messages":{
+        "first":"Vous avez réussi a vous extirper de la salle en toute discrétion, en priant pour que le prof ne fasse pas l’appel une seconde fois."
+      },
+      "btnA":"continuer",
+      "actionA":"21"
+    },
+    "21" : {
+      "messages":{
+        "first":"Vous voyez Marie au bout du couloir, que faites vous ?"
+      },
+      "btnA":"Retournez en cours",
+      "btnB":"Continuer à sortir",
+      "actionA":"19",
+      "actionB":"23"
+    },
+    "22" : {
+      "messages":{
+        "first":"Les cours de la journée passent, lentement pour certains.",
+        "second":"Léa Persman viens faire un petit discours dans la classe et propose un évênement carrière qui va se dérouler tout de suite dans l’école."
+      },
+      "btnA":"Rester dans l’école",
+      "btnB":"Rentrer chez vous",
+      "actionA":"25",
+      "actionB":"26"
+    },
+    "23" : {
+      "messages":{
+        "first":"Vous arrivez au niveau de Marie, malheuresement elle vous a vu, elle vous demande ce que vous faites"
+      },
+      "btnA":"Vous lui racontez un mensonge, vous venez de perdre votre chat...",
+      "btnB":"Courir jusqu’à la sortie",
+      "actionA":"24",
+      "actionB":"/lose"
+    },
+    "24" : {
+      "messages":{
+        "first":"Marie crois votre mensonge et vous laisse partir."
+      },
+      "btnA":"continuer",
+      "actionA":"26"
+    },
+    "25" : {
+      "messages":{
+        "first":"Vous rencontrez beaucoup d’opportunités pour des stages, que faites vous"
+      },
+      "btnA":"Passer des entretiens",
+      "btnB":"Faire de la switch dans la salle de classe en attendant que le temps passe",
+      "actionA":"27",
+      "actionB":"28"
+    },
+    "26" : {
+      "messages":{
+        "first":"Vous êtes donc de retour chez vous, que faites vous ?"
+      },
+      "btnA":"Vous travaillez",
+      "btnB":"Vous regardez les Anges de la télé en Afrique",
+      "actionA":"29",
+      "actionB":"29"
+    },
+    "27" : {
+      "messages":{
+        "first":"Vous avez fait pleins d’entretiens, c’est une bonne chose pour votre recherche de stage ! La journée se termine et vous rentrez chez vous"
+      },
+      "btnA":"continuer",
+      "actionA":"26"
+    },
+    "28" : {
+      "messages":{
+        "first":"Vous êtes en pleine partie, vous allez battre votre record mais vous voyez du coin de l’oeil Léa passer devant votre salle. Mais trop tard le mal est fait."
+      },
+      "btnA":"continuer",
+      "actionA":"/lose"
+    },
+    "29" : {
+      "messages":{
+        "first":"Une nouvelle journée commence ! Vous commencez la journée avec des cours d’algorithmie.",     
+        "second":"Rappel des règles pendant les cours d’algo; Interdiction d’utiliser son téléphone et son ordinateur, les cours se font sur papier"
+      },
+      "btnA":"Eteindre l’ordi, le téléphone et sortir des feuilles et un stylo",
+      "btnB":"Osef on garde l’ordi sur la table",
+      "actionA":"30",
+      "actionB":"31"
+    },
+    "30" : {
+      "messages":{
+        "first":"Parmi les propositions suivantes, lesquelles peuvent être considérées comme un algorithme ?"
+      },
+      "btnA":"La recette du quatre quarts à suivre pas à pas",
+      "btnB":"Une liste de cadeaux détaillée au Père Noël.",
+      "actionA":"32",
+      "actionB":"32"
+    },
+    "31" : {
+      "messages":{
+        "first":"Dommage, la prof n’est pas dupe et vous a grillé, sans ménagement elle vous met dehors."
+      },
+      "btnA":"Sortir sans rien dire",
+      "btnB":"Monter sur ces grands chevaux et finir par sortir",
+      "actionA":"33",
+      "actionB":"33"
+    },
+    "32": {
+      "messages":{
+        "first":""
+      },
+      "btnA":"",
+      "btnB":"",
+      "actionA":"",
+      "actionB":""
+    },
+    "33" : {
+      "messages":{
+        "first":""
+      },
+      "btnA":"s",
+      "btnB":"s",
+      "actionA":"",
+      "actionB":""
     }
   }
