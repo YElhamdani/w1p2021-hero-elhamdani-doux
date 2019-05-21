@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 $hetic-green: #0de595;
-
+$color-button: #02C39A;
 body,
 button,
 input,
@@ -11,6 +11,14 @@ textarea {
   font-family: 'Roboto';
 }
 
+.autor{
+  color: #FF1654;
+}
+
+.credit{
+  position: relative;
+  top: 25%;
+}
 .big-header {
   background-color: black;
   height: 100vh;
@@ -25,11 +33,22 @@ textarea {
 }
 
 .button {
-  color: $hetic-green;
+  color: white;
   text-decoration: none;
-  background: white;
+  background: $color-button;
   padding: 5px;
-  border-radius: 5px;
-  display: inline-block;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
   border: none;
+  width: 133.22px;
+  height: 53px;
+}
+
+.buttons{
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%
 }

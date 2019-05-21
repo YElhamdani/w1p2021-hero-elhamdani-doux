@@ -1,11 +1,12 @@
 <template>
   <div class="big-header">
-    <h1>Bienvenue à HETIC</h1>
-    <p>Ca y est vous êtes admis dans l’école prestigieuse qu’est HETIC, Brontis vous accueille pour votre premier jour.
-       Survivez à cette année sans vous faire virer, et validez votre année. Faites les bons choix pour espérer finir avec une note supérieure à 10/20
-    </p>
+    <h1 style="font-size: 35px">HETIC SURVIVOR</h1>
     <br />
-    <router-link class="button" to="/page">Go to Page</router-link>
+    <div class="buttons">
+    <router-link class="button" to="/game/1">Jouer</router-link>
+    <router-link class="button" to="/rules">Comment jouer ?</router-link>
+    </div>
+    <a class="credit" href="/credit" to="/page">Crédits</a>
   </div>
 </template>
 

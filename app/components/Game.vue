@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import json from '../assets/data.json'
+import json from '../data.json'
 
 export default {
   data(){
