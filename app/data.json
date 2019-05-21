@@ -1,11 +1,11 @@
 {
     "1" : {
       "messages": {
-        "first": "Payer  7 000euros et entrer dans l’école",
-        "second": "Wallah c’est moins cher ailleurs"
+        "first": "BIENVENUE à HETIC ! ",
+        "second": "Ca y est vous êtes admis dans l’école prestigieuse qu’est HETIC, Brontis vous accueille pour votre premier jour."
       },
-      "btnA": " oui",
-      "btnB": " non",
+      "btnA": " Payer 7 000€ et entrer dans l’école",
+      "btnB": " Wallah c’est moins cher ailleurs",
       "actionA" : "/game/2",
       "actionB" : "/game"
     },

@@ -1,6 +1,7 @@
 <template>
   <div class="big-header">
     <h1>COMMENT JOUER ?</h1>
+    <br>
     <p>Survivez à la première année en<span class="autor">Bachelor Web à HETIC</span>.</p>
     <br>
     <br>
