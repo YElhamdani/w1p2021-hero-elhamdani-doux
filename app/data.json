@@ -87,239 +87,233 @@
       "actionA":"16"
     },
     "13" : {
-      "messages":{
-        "first":"Marie passe et vous voit manger dans la salle, elle vous rappelle les règles en haussant le ton et vous demande de sortir, que faites vous ?"
-      },
+      
+        "first":"Marie passe et vous voit manger dans la salle, elle vous rappelle les règles en haussant le ton et vous demande de sortir, que faites vous ?",
       "btnA":"Expliquer qu’il y a du monde partout et que vous ne trouvez aucune autre place assise",
       "btnB":"Faire la sourde oreille et continuer de manger",
       "actionA":"14",
       "actionB":"15"
     },
     "14" : {
-      "messages":{
-        "first":"Marie prend votre nom et vous préviens de votre sanction pour non respect des règles de l’école. Vous perdez 1 point dans votre moyenne"
-      },
+      
+        "first":"Marie prend votre nom et vous préviens de votre sanction pour non respect des règles de l’école. Vous perdez 1 point dans votre moyenne",
       "btnA":"continuer",
       "actionA":"16"
     },
     "15" : {
-      "messages":{
-        "first":"Marie comprend la situation et vous donne l’autorisation de rester dans la salle pour déjeuner"
-      },
+      
+        "first":"Marie comprend la situation et vous donne l’autorisation de rester dans la salle pour déjeuner",
       "btnA":"continuer",
       "actionA":"16"
     },
+
     "16" : {
-      "messages":{
-        "first":"L’heure du déjeuner est passée, Johanna passe dans la classe pour parler des stages, des modalités etc ... Elle vous conseille de commencer à chercher tôt"
-      },
+        "first":"L’heure du déjeuner est passée, Johanna passe dans la classe pour parler des stages, des modalités etc ... Elle vous conseille de commencer à chercher tôt",
       "btnA":"Commencer à chercher dés maintenant",
       "btnB":"Chercher plus tard",
       "actionA":"17",
       "actionB":"17"
     },
     "17" : {
-      "messages":{
         "first":"Cours de Wordpress, préparez vous pour une petite série de question",
         "second":"WORDPRESS: Faut-il changer le préfixe des tables au moment de l'installation ?"
-      },
+      ,
       "btnA":"Oui, pour des raisons de sécurité.",
       "btnB":"Non, le préfixe ne doit pas être modifié.",
       "actionA":"18",
       "actionB":"18"
     },
     "18" : {
-      "messages":{
+    
         "first":"Bon, les questions ça va deux minutes, vous commencez à vous ennuyer, que faites vous ?"
-      },
+    ,
       "btnA":"Continuer les questions",
       "btnB":"Partir discretement à la pause",
       "actionA":"19",
       "actionB":"20"
     },
     "19" : {
-      "messages":{
+      
         "first":"WORDPRESS: Choisissez la bonne réponse"
-      },
+      ,
       "btnA":"fonctions.php",
       "btnB":"functions.php",
       "actionA":"22",
       "actionB":"22"
     },
     "20" : {
-      "messages":{
+      
         "first":"Vous avez réussi a vous extirper de la salle en toute discrétion, en priant pour que le prof ne fasse pas l’appel une seconde fois."
-      },
+      ,
       "btnA":"continuer",
       "actionA":"21"
     },
     "21" : {
-      "messages":{
+      
         "first":"Vous voyez Marie au bout du couloir, que faites vous ?"
-      },
+      ,
       "btnA":"Retournez en cours",
       "btnB":"Continuer à sortir",
       "actionA":"19",
       "actionB":"23"
     },
     "22" : {
-      "messages":{
+      
         "first":"Les cours de la journée passent, lentement pour certains.",
         "second":"Léa Persman viens faire un petit discours dans la classe et propose un évênement carrière qui va se dérouler tout de suite dans l’école."
-      },
+      ,
       "btnA":"Rester dans l’école",
       "btnB":"Rentrer chez vous",
       "actionA":"25",
       "actionB":"26"
     },
     "23" : {
-      "messages":{
-        "first":"Vous arrivez au niveau de Marie, malheuresement elle vous a vu, elle vous demande ce que vous faites"
-      },
+      
+        "first":"Vous arrivez au niveau de Marie, malheuresement elle vous a vu, elle vous demande ce que vous faites",
       "btnA":"Vous lui racontez un mensonge, vous venez de perdre votre chat...",
       "btnB":"Courir jusqu’à la sortie",
       "actionA":"24",
       "actionB":"/lose"
     },
     "24" : {
-      "messages":{
+    
         "first":"Marie crois votre mensonge et vous laisse partir."
-      },
+    ,
       "btnA":"continuer",
       "actionA":"26"
     },
     "25" : {
-      "messages":{
+      
         "first":"Vous rencontrez beaucoup d’opportunités pour des stages, que faites vous"
-      },
+      ,
       "btnA":"Passer des entretiens",
       "btnB":"Faire de la switch dans la salle de classe en attendant que le temps passe",
       "actionA":"27",
       "actionB":"28"
     },
     "26" : {
-      "messages":{
+      
         "first":"Vous êtes donc de retour chez vous, que faites vous ?"
-      },
+      ,
       "btnA":"Vous travaillez",
       "btnB":"Vous regardez les Anges de la télé en Afrique",
       "actionA":"29",
       "actionB":"29"
     },
     "27" : {
-      "messages":{
+      
         "first":"Vous avez fait pleins d’entretiens, c’est une bonne chose pour votre recherche de stage ! La journée se termine et vous rentrez chez vous"
-      },
+      ,
       "btnA":"continuer",
       "actionA":"26"
     },
     "28" : {
-      "messages":{
+      
         "first":"Vous êtes en pleine partie, vous allez battre votre record mais vous voyez du coin de l’oeil Léa passer devant votre salle. Mais trop tard le mal est fait."
-      },
+      ,
       "btnA":"continuer",
       "actionA":"/lose"
     },
     "29" : {
-      "messages":{
+      
         "first":"Une nouvelle journée commence ! Vous commencez la journée avec des cours d’algorithmie.",     
         "second":"Rappel des règles pendant les cours d’algo; Interdiction d’utiliser son téléphone et son ordinateur, les cours se font sur papier"
-      },
+      ,
       "btnA":"Eteindre l’ordi, le téléphone et sortir des feuilles et un stylo",
       "btnB":"Osef on garde l’ordi sur la table",
       "actionA":"30",
       "actionB":"31"
     },
     "30" : {
-      "messages":{
+      
         "first":"Parmi les propositions suivantes, lesquelles peuvent être considérées comme un algorithme ?"
-      },
+      ,
       "btnA":"La recette du quatre quarts à suivre pas à pas",
       "btnB":"Une liste de cadeaux détaillée au Père Noël.",
       "actionA":"32",
       "actionB":"32"
     },
     "31" : {
-      "messages":{
+      
         "first":"Dommage, la prof n’est pas dupe et vous a grillé, sans ménagement elle vous met dehors."
-      },
+      ,
       "btnA":"Sortir sans rien dire",
       "btnB":"Monter sur ces grands chevaux et finir par sortir",
       "actionA":"33",
       "actionB":"33"
     },
     "32": {
-      "messages":{
+      
         "first":"Le cours est fini, ENFIN ! Préparez vous pour la suite c’est à dire faire la semaine intensive"
-      },
+      ,
       "btnA":"continuer",
       "actionA":"35"
     },
     "33" : {
-      "messages":{
+      
         "first":"Vous vous êtes donc fait virer de cours, Brontis passe dans le couloir et vous vois assis par terre, il vous demande ce que vous faites"
-      },
+      ,
       "btnA":"Lui expliquer la situation",
       "btnB":"Ne rien dire et faire semblant de travailler",
       "actionA":"34",
       "actionB":"34"
     },
     "34": {
-      "messages":{
+      
         "first":"Vous patienter dehors la fin du cours, y a que ça à faire de toute façon"
-      },
+      ,
       "btnA":"continuer",
       "actionA":"32"
     },
     "35": {
-      "messages":{
+      
         "first":"Pendant la semaine intensive, qui êtes vous ?"
-      },
+      ,
       "btnA":"Celui qui fait le plus gros du boulot",
       "btnB":"Celui qui regarde et qui fait rien",
       "actionA":"36",
       "actionB":"37"
     },
     "36": {
-      "messages":{
+      
         "first":"Grace à vous, tout les gens de votre groupe peuvent espérer avoir une bonne note même s’il ne font pas grand chose, comme celui qui regarde de loin et qui ne fait rien. Le jour de la soutenance, que faites vous ?"
-      },
+      ,
       "btnA":"Venir et tout déchirer",
       "btnB":"Lâcher son groupe au dernier moment et rester chez soit",
       "actionA":"38",
       "actionB":"38"
     },
     "37": {
-      "messages":{
+      
         "first":"Bravo, vous êtes vu comme le relou de service par tout le reste de votre groupe, le jour de la soutenance arrive, que faites vous ?"
-      },
+      ,
       "btnA":"Venir et faire décor dans le fond",
       "btnB":"Je suis désolé j’ai rendez vous chez le médecin",
       "actionA":"38",
       "actionB":"38"
     },
     "38": {
-      "messages":{
+      
         "first":"Ca y est c’est la période des partiels, la dernière ligne droite avant la liberté, repondez à cette série de questions"
-      },
+      ,
       "btnA":"coldpan",
       "btnB":"groupline",
       "actionA":"39",
       "actionB":"39"
     },
     "39": {
-      "messages":{
+      
         "first":"CSS: Quelle directive CSS permet de créer un site en responsive webdesign ?"
-      },
+      ,
       "btnA":".screensize",
       "btnB":"@media",
       "actionA":"40",
       "actionB":"40"
     },
     "40": {
-      "messages":{
+      
         "first":"UI/UX: Qu’est ce que l’UX ?"
-      },
+      ,
       "btnA":"User Experience",
       "btnB":"Le contraire de l’UI",
       "actionA":"/win",

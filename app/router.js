@@ -6,7 +6,6 @@ import Character from './components/Character.vue';
 import Game from './components/Game.vue';
 import Win from './components/Win.vue';
 import Lose from './components/Lose.vue';
-import Lose2 from './componentsLose2.vue';
 import Rules from './components/Rules.vue';
 import Credit from './components/Credit.vue' 
 Vue.use(Router);
@@ -39,11 +38,6 @@ const router = new Router({
       path: '/lose',
       name: 'lose',
       component: Lose,
-    },
-    {
-      path: '/lose2',
-      name: 'lose2',
-      component: Lose2,
     },
     {
       path: '/rules',
