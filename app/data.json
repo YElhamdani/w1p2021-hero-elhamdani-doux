@@ -250,20 +250,79 @@
     },
     "32": {
       "messages":{
-        "first":""
+        "first":"Le cours est fini, ENFIN ! Préparez vous pour la suite c’est à dire faire la semaine intensive"
       },
-      "btnA":"",
-      "btnB":"",
-      "actionA":"",
-      "actionB":""
+      "btnA":"continuer",
+      "actionA":"35"
     },
     "33" : {
       "messages":{
-        "first":""
+        "first":"Vous vous êtes donc fait virer de cours, Brontis passe dans le couloir et vous vois assis par terre, il vous demande ce que vous faites"
       },
-      "btnA":"s",
-      "btnB":"s",
-      "actionA":"",
-      "actionB":""
+      "btnA":"Lui expliquer la situation",
+      "btnB":"Ne rien dire et faire semblant de travailler",
+      "actionA":"34",
+      "actionB":"34"
+    },
+    "34": {
+      "messages":{
+        "first":"Vous patienter dehors la fin du cours, y a que ça à faire de toute façon"
+      },
+      "btnA":"continuer",
+      "actionA":"32"
+    },
+    "35": {
+      "messages":{
+        "first":"Pendant la semaine intensive, qui êtes vous ?"
+      },
+      "btnA":"Celui qui fait le plus gros du boulot",
+      "btnB":"Celui qui regarde et qui fait rien",
+      "actionA":"36",
+      "actionB":"37"
+    },
+    "36": {
+      "messages":{
+        "first":"Grace à vous, tout les gens de votre groupe peuvent espérer avoir une bonne note même s’il ne font pas grand chose, comme celui qui regarde de loin et qui ne fait rien. Le jour de la soutenance, que faites vous ?"
+      },
+      "btnA":"Venir et tout déchirer",
+      "btnB":"Lâcher son groupe au dernier moment et rester chez soit",
+      "actionA":"38",
+      "actionB":"38"
+    },
+    "37": {
+      "messages":{
+        "first":"Bravo, vous êtes vu comme le relou de service par tout le reste de votre groupe, le jour de la soutenance arrive, que faites vous ?"
+      },
+      "btnA":"Venir et faire décor dans le fond",
+      "btnB":"Je suis désolé j’ai rendez vous chez le médecin",
+      "actionA":"38",
+      "actionB":"38"
+    },
+    "38": {
+      "messages":{
+        "first":"Ca y est c’est la période des partiels, la dernière ligne droite avant la liberté, repondez à cette série de questions"
+      },
+      "btnA":"coldpan",
+      "btnB":"groupline",
+      "actionA":"39",
+      "actionB":"39"
+    },
+    "39": {
+      "messages":{
+        "first":"CSS: Quelle directive CSS permet de créer un site en responsive webdesign ?"
+      },
+      "btnA":".screensize",
+      "btnB":"@media",
+      "actionA":"40",
+      "actionB":"40"
+    },
+    "40": {
+      "messages":{
+        "first":"UI/UX: Qu’est ce que l’UX ?"
+      },
+      "btnA":"User Experience",
+      "btnB":"Le contraire de l’UI",
+      "actionA":"/win",
+      "actionB":"/lose2"
     }
   }
