@@ -1,6 +1,7 @@
 # Le site dont vous êtes le héros
 
 URL du site : frosty-shockley-00df7e.netlify.com
+ schéma numérique : https://www.figma.com/file/XrwJZ84uzyaH6Qyw1ODz8hBv/Jeu-HETIC?node-id=12%3A2
 
 ### Groupe
 
