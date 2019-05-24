@@ -41,7 +41,7 @@
       "btnA":"center",
       "btnB":"justify",
       "actionA":"8",
-      "actionB":"/lose"
+      "actionB":"41"
     },
     "6" : {
       
@@ -91,14 +91,15 @@
         "first":"Marie passe et vous voit manger dans la salle, elle vous rappelle les règles en haussant le ton et vous demande de sortir, que faites vous ?",
       "btnA":"Expliquer qu’il y a du monde partout et que vous ne trouvez aucune autre place assise",
       "btnB":"Faire la sourde oreille et continuer de manger",
-      "actionA":"14",
-      "actionB":"15"
+      "actionA":"15",
+      "actionB":"14"
     },
     "14" : {
       
-        "first":"Marie prend votre nom et vous préviens de votre sanction pour non respect des règles de l’école. Vous perdez 1 point dans votre moyenne",
+        "first":"Marie prend votre nom et vous préviens de votre sanction pour non respect des règles de l’école. ", 
+        "second" : "Vous etes viré pour non respect des lois et mise en danger de personne dans un lieu privé à cause de votre nourriture lol tchao",
       "btnA":"continuer",
-      "actionA":"16"
+      "actionA":"/lose"
     },
     "15" : {
       
@@ -318,5 +319,21 @@
       "btnB":"Le contraire de l’UI",
       "actionA":"/win",
       "actionB":"/lose2"
-    }
+    },
+    "41": {
+      
+      "first":"Ton niveau est d'un bas desolant... bye"
+    ,
+    "btnA":"je suis un loser",
+    "actionA":"/lose"
+  },
+  "42": {
+      
+    "first":"UI/UX: Qu’est ce que l’UX ?"
+  ,
+  "btnA":"User Experience",
+  "btnB":"Le contraire de l’UI",
+  "actionA":"/win",
+  "actionB":"/lose2"
+}
   }

@@ -1,6 +1,6 @@
 <template>
   <div class="big-header">
-    <audio src="../../assets/audio/Music-Menu.mp3" autoplay loop ref="audio"></audio>
+    <audio src="../assets/audio/music.mp3" autoplay loop ref="audio"></audio>
     <h1 style="font-size: 35px">HETIC SURVIVOR</h1>
     <br />
     <div class="buttons">
