@@ -1,6 +1,8 @@
 # Le site dont vous êtes le héros
 
-URL du site : frosty-shockley-00df7e.netlify.com
+URL du site : https://heticsurvivor.netlify.com
+
+
 
 # schéma numérique 
 
